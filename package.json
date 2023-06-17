@@ -6,7 +6,7 @@
     "dev": "NODE_OPTIONS=--openssl-legacy-provider && next dev",
     "build": "NODE_OPTIONS=--openssl-legacy-provider && next build",
     "start": "NODE_OPTIONS=--openssl-legacy-provider && next start",
-    "lint": "next lint"
+    "lint": "NODE_OPTIONS=--openssl-legacy-provider && next lint"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.8",
