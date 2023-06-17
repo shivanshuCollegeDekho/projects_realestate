@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' next build && next export"
-
+    "lint": "next lint"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.8",
